@@ -92,7 +92,7 @@ fi
 # Get folly
 if [ ! -e folly/folly ]; then
     echo "Cloning folly"
-    git clone https://github.com/facebook/folly
+    git clone https://github.com/abhiguru/folly
 fi
 cd folly/folly
 git fetch
